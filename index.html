@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gagan Imports & Exports</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div id="menu-strip">
+            <div id="menu">
+                <div class="logo">
+                    <img src="Gagan_logo.png" alt="Logo">
+                </div>
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="horizontal-centering">
+                    <ul class="dropdown dropdown-horizontal">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about-us.html" class="dir">About Us</a></li>
+                        <li><a href="#product-categories" class="dir" class="products-link">Products</a>
+                            <ul class="dropdown">
+                                <li><a href="Rice.html">Rice</a>
+                                    <ul>
+                                        <li><a href="rice.html?id=1">Basmati Rice</a></li>
+                                        <li><a href="rice.html?id=2">Sona Masoori Rice</a></li>
+                                        <li><a href="rice.html?id=3">Pusa Basmati Rice</a></li>
+                                        <li><a href="rice.html?id=4">Black Rice</a></li>
+                                        <li><a href="rice.html?id=5">Brown Rice</a></li>
+                                        <li><a href="rice.html?id=6">Lachekari Rice</a></li>
+                                        <li><a href="rice.html?id=7">Sella Rice</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="Pulses.html">Pulses</a>
+                                    <ul>
+                                        <li><a href="pulses.html?id=1">Lentils(Masoor dal)</a></li>
+                                            <li><a href="pulses.html?id=2">Chickpeas (Chana)</a></li>
+                                            <li><a href="pulses.html?id=3">Split pigeon (Toor dal)</a></li>
+                                            <li><a href="pulses.html?id=4">Black gram (Urad dal)</a></li>
+                                            <li><a href="pulses.html?id=7">Mung beans (Moong dal)</a></li>
+                                            <li><a href="pulses.html?id=5">Kidney beans(Rajama)</a></li>
+                                            <li><a href="pulses.html?id=6">Greenpeas</a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="Nuts.html">Nuts</a>
+                                    <ul>
+                                        <li><a href="nuts.html?id=1">Cashew</a></li>
+                                        <li><a href="nuts.html?id=2">Peanuts</a></li>
+                                        <li><a href="nuts.html?id=3">Pistachios</a></li>
+                                        <li><a href="nuts.html?id=4">Anjeer</a></li>
+                                        <li><a href="nuts.html?id=5">Raisins</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li><a href="Spices.html">Spices</a>
+                                    <ul>
+                                        <li><a href="turbla.html?id=1">Tumeric</a></li>
+                                        <li><a href="turbla.html?id=2">Black Pepper</a></li>
+                                        <li><a href="spices.html?id=1">Colves</a></li>
+                                        <li><a href="spices.html?id=2">Nutmeg & mace</a></li>
+                                        <li><a href="spices.html?id=3">Cardmom</a></li>
+                                        <li><a href="spices.html?id=4">Cinnamon</a></li>
+                                        <li><a href="spices.html?id=5">Cumin Seeds</a></li>
+                                        <li><a href="spices.html?id=10">Fennel Seeds</a></li>
+                                        <li><a href="spices.html?id=6">Fenugreek</a></li>
+                                        <li><a href="spices.html?id=9">Chillies</a></li>
+                                        <li><a href="spices.html?id=7">Ginger</a></li>
+                                        <li><a href="spices.html?id=8">Garlic</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li><a href="Vegetables.html">Vegetables</a></li>
+                                <li><a href="Fruits.html">Fruits</a></li>
+                                <li><a href="Millets.html">Millets</a>
+                                    <ul>
+                                        <li><a href="Finger Millet.html">Finger Millet</a></li>
+                                        <li><a href="Kodo Millet.html">Kodo Millet</a></li>
+                                        <li><a href="Barnyard Millet.html">Barnyard Millet</a></li>
+                                        <li><a href="Foxtail Millet.html">Foxtail Millet</a></li>
+                                        <li><a href="Sorghum Millet.html">Sorghum Millet </a></li>
+                                        <li><a href="Little Millet(Samai).html">Little Millet(Samai)</a></li>
+                                        <li><a href="Pearl Millet.html">Pearl Millet </a></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="whyUs.html" class="dir">Why Us</a></li>
+                        <li><a href="our-business.html" class="dir">Our Business Way</a></li>
+                        <li><a href="contactus.html" class="dir">Contact Us</a></li>
+                        
+                    </ul>
+                    <div class="translate-container">
+                        <div id="google_translate_element"></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Image -->
+    <div class="image-stack">
+        <img src="background1.png" alt="Image 1" class="stacked-image" style="z-index: 6;">
+        <img src="background2.jpeg" alt="Image 2" class="stacked-image" style="z-index: 5;">
+        <img src="background3.jpeg" alt="Image 3" class="stacked-image" style="z-index: 4;">
+        <img src="background4.jpeg" alt="Image 4" class="stacked-image" style="z-index: 3;">
+        <img src="background5.jpeg" alt="Image 5" class="stacked-image" style="z-index: 2;">
+        <img src="background6.jpeg" alt="Image 6" class="stacked-image" style="z-index: 1;">
+
+    </div>
+<!--Main1-->
+    <main>
+        <div id="main-body">
+        <h2>WELCOME TO GAGAN IMPORTS & EXPORTS</h2>
+        <p id="more-content" class="collapsed">
+            "Gagan Imports and Exports" is a dynamic trading company, deeply rooted in the import and export of high-quality products, with a strong focus on agricultural commodities.<br>
+            Established with a foundation of comprehensive industry knowledge and experience, we aim to bridge the gap between suppliers and buyers across the globe.
+            <span id="more-text" style="display: none;">
+             Based in India, a nation known for its agricultural heritage, Gagan Imports and Exports has built strong relationships with leading suppliers, manufacturers, and traders to ensure that<br>
+             we source and deliver the finest produce at competitive prices.
+
+             With our headquarters strategically located, we are well-positioned to cater to global market demands for various<br>
+             agricultural commodities.<br>
+
+            Our strength lies in our ability to tailor sourcing to meet specific customer needs, providing the best quality at competitive prices, while adhering strictly to agreed delivery timelines.<br>
+            Committed to the motto "Quality is our commitment," we prioritize excellence in every aspect of our business, ensuring that our customers receive nothing short of the highest standards.<br>
+
+            At Gagan Imports and Exports, we are dedicated to building long-term, sustainable relationships with our clients. By working closely with well-established farmers and traders after <br>
+            thorough due diligence, we offer you peace of mind in terms of product quality and pricing. From the farmlands to your table, we go the extra mile to ensure you receive the best<br>
+             products.
+
+           We invite you to connect with Gagan Imports and Exports, whether you're a buyer, supplier, or intermediary. Please reach out to us at **, and a dedicated team<br>
+            member will be in touch to discuss how we can collaborate and grow together
+            </span>
+        </p>
+        <button id="read-more-btn" onclick="toggleText()">Read More</button>
+        </div>
+    <div id="Gagan-showcasehub">
+        <h2>GAGAN SHOWCASE HUB</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="Rice.png" alt="Rice">
+                <p id="gallery-item-color">Rice</p>
+            </div>
+            <div class="gallery-item">
+                <img src="Pulses.png" alt="Pulses">
+                <p id="gallery-item-color">Pulses</p>
+            </div>
+            <div class="gallery-item">
+                <img src="nuts.jpeg" alt="Nuts">
+                <p id="gallery-item-color">Nuts</p>
+            </div>
+            <div class="gallery-item">
+                <img src="spiceses.jpeg" alt="Spices">
+                <p id="gallery-item-color">Spices</p>
+            </div>
+            <div class="gallery-item">
+                <img src="vegitables.jpg" alt="Vegetables">
+                <p id="gallery-item-color">Vegetables</p>
+            </div>
+            <div class="gallery-item">
+                <img src="fruits.jpg" alt="Fruits">
+                <p id="gallery-item-color">Fruits</p>
+            </div>
+            <div class="gallery-item">
+                <img src="millites.png" alt="Millets">
+                <p id="gallery-item-color">Millets</p>
+            </div>
+        </div>
+    </div>
+        
+    <!---product categories-->
+    <div id="product-categories" class="fo-menu">
+        <h1>Product Categories</h1> 
+        <div class="product-section">
+            <li><a href="Spices.html">Spices</a>
+                <ul>
+                    <li><a href="turbla.html?id=1">Tumeric</a></li>
+                    <li><a href="turbla.html?id=2">Black Pepper</a></li>
+                    <li><a href="spices.html?id=1">Colves</a></li>
+                    <li><a href="spices.html?id=2">Nutmeg & mace</a></li>
+                    <li><a href="spices.html?id=3">Cardmom</a></li>
+                    <li><a href="spices.html?id=4">Cinnamon</a></li>
+                    <li><a href="spices.html?id=5">Cumin Seeds</a></li>
+                    <li><a href="spices.html?id=10">Fennel Seeds</a></li>
+                    <li><a href="spices.html?id=6">Fenugreek</a></li>
+                    <li><a href="spices.html?id=9">Chillies</a></li>
+                    <li><a href="spices.html?id=7">Ginger</a></li>
+                    <li><a href="spices.html?id=8">Garlic</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="Rice.html">Rice</a>
+                <ul>
+                    <li><a href="rice.html?id=1">Basmati Rice</a></li>
+                    <li><a href="rice.html?id=2">Sona Masoori Rice</a></li>
+                    <li><a href="rice.html?id=3">Pusa Basmati Rice</a></li>
+                    <li><a href="rice.html?id=4">Black Rice</a></li>
+                    <li><a href="rice.html?id=5">Brown Rice</a></li>
+                    <li><a href="rice.html?id=6">Lachekari Rice</a></li>
+                    <li><a href="rice.html?id=7">Sella Rice</a></li>
+                </ul>
+            </li>
+            <li><a href="Pulses.html">Pulses</a>
+                <ul>
+                    <li><a href="pulses.html?id=1">Lentils(Masoor dal)</a></li>
+                    <li><a href="pulses.html?id=2">Chickpeas (Chana)</a></li>
+                    <li><a href="pulses.html?id=3">Split pigeon (Toor dal)</a></li>
+                    <li><a href="pulses.html?id=4">Black gram (Urad dal)</a></li>
+                    <li><a href="pulses.html?id=7">Mung beans (Moong dal)</a></li>
+                    <li><a href="pulses.html?id=5">Kidney beans(Rajama)</a></li>
+                    <li><a href="pulses.html?id=6">Greenpeas</a></li>
+                </ul>
+            </li>
+            <li><a href="Millets.html">Millets</a>
+                <ul>
+                    <li><a href="Finger Millet.html">Finger Millet</a></li>
+                    <li><a href="Kodo Millet.html">Kodo Millet</a></li>
+                    <li><a href="Barnyard Millet.html">Barnyard Millet</a></li>
+                    <li><a href="Foxtail Millet.html">Foxtail Millet</a></li>
+                    <li><a href="Sorghum Millet.html">Sorghum Millet </a></li>
+                    <li><a href="Little Millet(Samai).html">Little Millet(Samai)</a></li>
+                    <li><a href="Pearl Millet.html">Pearl Millet </a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="Nuts.html">Nuts</a>
+                <ul>
+                    <li><a href="nuts.html?id=1">Cashew</a></li>
+                    <li><a href="nuts.html?id=2">Peanuts</a></li>
+                    <li><a href="nuts.html?id=3">Pistachios</a></li>
+                    <li><a href="nuts.html?id=4">Anjeer</a></li>
+                    <li><a href="nuts.html?id=5">Raisins</a></li> 
+                    
+                </ul>
+            </li>
+
+        </div>
+    </div>
+        
+    </main>
+    
+    <!--Footer-->
+    <footer>
+       
+    </div>
+    <ul class="social-icons">
+        <li><a href=#><i class="fa-brands fa-facebook"></i></a></li>
+
+        <li><a href=#><i class="fa-brands fa-linkedin"></i></a></li>
+
+        <li><a href=#><i class="fa-brands fa-instagram"></i></a></li>
+
+        <li><a href=#><i class="fa-brands fa-square-x-twitter"></i></a></li>
+
+        <li><a href=#><i class="fa-brands fa-whatsapp"></i></a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Why us</a></li>
+        <li><a href="#">Our Business Way</a></li>
+        <li><a href="#">Enquiry</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+    <p>&copy;2024 Gangam Imports and Exports | All rights Reserved</p>
+</footer>
+
+    <script src="app.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        // Scroll to Product Categories when Products is clicked (only on small screens)
+        document.querySelector('.products-link').addEventListener('click', function(event) {
+            if (window.innerWidth <= 768) { // Apply only for screens <= 768px
+                event.preventDefault();
+                document.querySelector('#product-categories').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+        </script>
+        
+</body>
+</html>

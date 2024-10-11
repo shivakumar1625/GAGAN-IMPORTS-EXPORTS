@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: white;
+    /* padding: 20px; */
+    text-align: center;
+    color: white;
+}
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+.tagline {
+    font-size: 1.2rem;
+    /* margin: 10px 0; */
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    color: #004d40;
+}
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsive iframe styling */
+iframe {
+    width: 100%;
+    min-height: 600px;
+    border: none;
+    overflow: hidden;
+}
+
+/* Responsive adjustments for different screen sizes */
+@media (max-width: 768px) {
+    iframe {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    iframe {
+        min-height: 400px;
+    }
+}
+

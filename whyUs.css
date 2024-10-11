@@ -1,0 +1,116 @@
+/* General Body Settings */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Top Section: WHY and Image side by side */
+.why-and-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#why {
+    font-size: 8rem;
+    color: #FF6F00;
+    margin-right: 20px;
+}
+
+#why-image {
+    width: 150px;
+    height: auto;
+}
+
+/* Lower Section: Products and Why Us side by side */
+.lower-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 50px;
+}
+
+/* Products Section */
+.product-section {
+    width: 35%;
+}
+
+.products-title {
+    font-size: 2.5rem;
+    color: #FF6F00;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-list li a {
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.product-list li a:hover {
+    color: #FF6F00;
+}
+
+/* Why Us Section */
+.why-us-section {
+    width: 60%;
+}
+
+.why-us-section h2 {
+    color: #00A3E0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Why Us Details */
+.why-details ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.why-details li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.why-details li strong {
+    color: #FF6F00;
+    margin-left: 10px;
+}
+
+.why-details .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #why {
+        font-size: 6rem;
+    }
+
+    #why-image {
+        width: 100px;
+    }
+
+    .lower-section {
+        flex-direction: column;
+    }
+
+    .product-section, .why-us-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
